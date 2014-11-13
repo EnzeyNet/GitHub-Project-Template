@@ -1,9 +1,9 @@
 {
-	"name": "SelectionManager",
-	"description": "Angular Selection Manager",
+	"name": "ProjectName",
+	"description": "New Angular Project",
 	"version": "0.0.1",
-	"homepage": "https://github.com/EnzeyNet/SelectionManager",
-	"bugs": "https://github.com/EnzeyNet/SelectionManager/issues",
+	"homepage": "https://github.com/UserName/ProjectName",
+	"bugs": "https://github.com/UserName/ProjectName/issues",
 	"author": {
 		"name": "Joseph Aspelund",
 		"email": "enzey@enzey.net",
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/EnzeyNet/SelectionManager.git"
+		"url": "https://github.com/UserName/ProjectName.git"
 	},
 	"keywords": [
 		"angular"
@@ -30,6 +30,9 @@
 		"karma-junit-reporter": "0.2.x",
 		"karma-ng-html2js-preprocessor": "0.1.x",
 		"grunt-git": "0.2.x",
+		"grunt-curl": "2.0.x",
+		"grunt-zip": "0.16.x",
+		"grunt-ng-annotate": "0.6.x",
 		"grunt-contrib-less": "0.11.x",
 		"grunt-contrib-jshint": "0.6.x",
 		"grunt-contrib-concat": "0.3.x",
@@ -38,6 +41,7 @@
 		"grunt-contrib-compress": "0.8.x",
 		"grunt-contrib-clean": "0.5.x",
 		"matchdep": "0.3.x",
+		"adm-zip": "0.4.x",
 		"grunt": "0.4.x"
 	}
 }
