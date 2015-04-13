@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
 	var matchdep = require('matchdep'); // dependencies from package
-	var repoLocation = /(https:\/\/github.com)(.*)/.exec(grunt.file.read('.git/config'))[0];	
+	var repoLocation = /(https:\/\/github.com)(.*)/.exec(grunt.file.read('.git/config'))[0];
 	var srcdir = 'src';
 	var distdir = 'dist';
 
@@ -31,6 +31,7 @@ module.exports = function (grunt) {
 			},
 			dev: {
 				src: [
+					srcdir + '/' + projectName + '.js',
 					srcdir + '/**/*.js'
 				],
 				dest: '<%= distdir %>/<%= projectName %>.js'
@@ -155,7 +156,4 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('update', function() {
-		
-	});
 };
